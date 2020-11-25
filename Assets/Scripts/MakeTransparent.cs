@@ -1,13 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 
 public class MakeTransparent : MonoBehaviour
 {
     public bool hasCube = false;
     bool isTransparent = false;
     float totalTimeSteps = 0;
+    
     void Start()
     {
         // capture changes in sliders and change transparency
